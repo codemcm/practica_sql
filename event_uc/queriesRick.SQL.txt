@@ -1,3 +1,0 @@
-10 Dies Organizadore organizer  name, created_by,
-
-INSERT INTO 

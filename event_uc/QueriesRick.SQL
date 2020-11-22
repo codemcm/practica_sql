@@ -31,7 +31,7 @@ INSERT INTO event_uc
 
 7, 8, 9
 10taller Join
-INSERT INTO guest_event(guest_id, event_uc_id )VALUES
-(7,10),
-(8,10),
-(9,10);
+INSERT INTO guest_event(guest_id, event_uc_id, created_by )VALUES
+(7,10,1),
+(8,10,1),
+(9,10,1);
