@@ -109,4 +109,3 @@ INSERT INTO user_uc(user_name,password, created_by,active)
 ALTER TABLE user_uc
   ADD CONSTRAINT fk_user_uc_user_uc 
   FOREIGN KEY (created_by) REFERENCES user_uc(user_id); 
-
