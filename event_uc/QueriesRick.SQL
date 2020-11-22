@@ -28,3 +28,10 @@ INSERT INTO event_uc
 (name, organizer_id, created_by, edited_by)VALUES 
 ('Taller Android',1,1,1),
 ('Taller IOS',1,1,1);
+
+7, 8, 9
+10taller Join
+INSERT INTO guest_event(guest_id, event_uc_id )VALUES
+(7,10),
+(8,10),
+(9,10);
