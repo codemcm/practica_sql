@@ -15,3 +15,4 @@ insert into guest (name,last_name,created_by)values ('Karla','Pineda Lopez',1);
 insert into guest (name,last_name,created_by)values ('Lorena','Balderas Carrera',1);
 
 
+insert into event_uc (name,organizer_id,created_by,edited_by)values('Taller de SQL Server',1,1,1);
