@@ -19,6 +19,6 @@ insert into event_uc (name,organizer_id,created_by,edited_by)values('Taller de S
 
 select* from guest_event;
 
-insert into guest_event(guest_id,event_uc_id,create_by)value(1,1,1);
-insert into guest_event(guest_id,event_uc_id,create_by)value(2,1,1);
-insert into guest_event(guest_id,event_uc_id,create_by)value(3,1,1);
+insert into guest_event(guest_id,event_uc_id,created_by)value(1,1,1);
+insert into guest_event(guest_id,event_uc_id,created_by)value(2,1,1);
+insert into guest_event(guest_id,event_uc_id,created_by)value(3,1,1);
