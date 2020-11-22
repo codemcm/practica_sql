@@ -1,4 +1,4 @@
-10 Dies Organizadore organizer  name, created_by,
+/*10 Dies Organizadore organizer  name, created_by,*/
 
 INSERT INTO organizer(name, created_by)VALUES
 ('UC',1),
