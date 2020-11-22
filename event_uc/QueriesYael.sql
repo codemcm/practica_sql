@@ -13,4 +13,4 @@ insert into event_uc values (NULL,'Platicas de empleos',1,'2020-01-12','Tiempo e
 insert into event_uc values (NULL,'Conferencias de Realidad Virtual',1,'2020-01-13','Llevar laptop ',2,'2020-01-02 01:01:13',1,1,'2020-01-02 08:08:20');
 insert into event_uc values (NULL,'Taller de herencia en Java',1,'2020-01-14','Llevar laptop ',2,'2020-01-02 01:01:14',1,1,'2020-01-02 08:08:21');
 
-INSERT INTO guest_event (guest_id, event_uc_id) VALUES (4,6),(5,6),(6,6);
+INSERT INTO guest_event (guest_id, event_uc_id, created_by) VALUES (4,6,1),(5,6,1),(6,6,1);
